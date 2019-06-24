@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 import org.studyeasy.showroom.model.Product;
 import org.studyeasy.showroom.services.ProductService;
 
-@Path("/showroom/brands")
+@Path("/showroom/brand")
 public class ProductsResource {
 	ProductService productService=new ProductService();
 	
